@@ -6,12 +6,12 @@ penjelasan dalam soal uts
 1. Untuk memberikan diskon dalam konteks sistem e-commerce, kita dapat menggunakan struktur kontrol percabangan dalam Python, yaitu if statement. Struktur ini memungkinkan 
    kita untuk memeriksa apakah total belanja memenuhi syarat untuk mendapatkan diskon.
 
-   # Logika Pemberian Diskon
+    Logika Pemberian Diskon
 
   - Jika total belanja lebih dari Rp500.000, maka pelanggan berhak mendapatkan diskon 10%.
   - Jika tidak, total belanja tetap dan tidak ada diskon.
 
-   # Program Python untuk Menghitung Total Bayar Setelah Diskon
+    Program Python untuk Menghitung Total Bayar Setelah Diskon
 
 2. Tipe data menentukan jenis nilai yang dapat disimpan dalam variabel. Dalam studi kasus ini:
 	•	Integer (int): digunakan untuk menyimpan nilai ujian (misalnya: 80, 75, 90).
@@ -19,7 +19,7 @@ penjelasan dalam soal uts
 	•	Boolean (bool): digunakan untuk menyimpan hasil logika, seperti apakah siswa lulus atau tidak (True/False).
 	•	String (str) (opsional): bisa digunakan untuk menyimpan nama siswa atau keterangan seperti “Lulus” / “Tidak Lulus”.
 
-3. Manfaat Penggunaan Fungsi dalam Menghitung Faktorial
+3.  Manfaat Penggunaan Fungsi dalam Menghitung Faktorial
 
     1. Modularitas: Fungsi memungkinkan kita memecah program menjadi bagian-bagian yang lebih kecil. Ini membuat kode lebih mudah dibaca, dimengerti, dan dirawat.
 
@@ -32,7 +32,7 @@ penjelasan dalam soal uts
     4. Pengurangan Kesalahan: Menggunakan fungsi dapat mengurangi kesalahan, karena logika faktorial terpusat dalam satu tempat. Jika ada kesalahan, kita hanya perlu 
        memperbaiki fungsi tersebut.
 
-  # Cara Kerja Rekursi dalam Menghitung Faktorial
+    Cara Kerja Rekursi dalam Menghitung Faktorial
     Untuk menghitung faktorial menggunakan rekursi, kita perlu mendefinisikan dua hal:
 
    1. Kasus Dasar: Ini adalah kondisi untuk menghentikan pemanggilan fungsi. Untuk faktorial, kita dapat menetapkan bahwa \( 0! = 1 \) dan \( 1! = 1 \).
@@ -50,7 +50,7 @@ penjelasan dalam soal uts
     else:  # Kasus rekursif
         return n * faktorial(n - 1)
 
-  # Contoh penggunaan
+   Contoh penggunaan
   print(faktorial(5))  # Output: 120
 
  
@@ -65,11 +65,11 @@ penjelasan dalam soal uts
 
 5. Langkah-langkah Algoritma
 
-   1. Inisialisasi Variabel:
+   * Inisialisasi Variabel:
    - Siapkan variabel untuk menyimpan harga masing-masing barang. Misalnya, harga_barang1, harga_barang2, dan harga_barang3.
    - Siapkan variabel untuk menyimpan total harga, misalnya total_harga.
 
-  2. Input Harga Barang:
+   * Input Harga Barang:
    - Minta pengguna untuk memasukkan harga barang ke-1.
    - Simpan harga ke dalam variabel harga_barang1.
    - Minta pengguna untuk memasukkan harga barang ke-2.
@@ -77,9 +77,9 @@ penjelasan dalam soal uts
    - Minta pengguna untuk memasukkan harga barang ke-3.
    - Simpan harga ke dalam variabel harga_barang3.
 
- 3. Hitung Total Harga:
+   * Hitung Total Harga:
    - Jumlahkan harga ketiga barang untuk mendapatkan total harga.
    - Total_harga = harga_barang1 + harga_barang2 + harga_barang3.
 
- 4. Tampilkan Total Harga:
+   * Tampilkan Total Harga:
    - Tampilkan hasil total harga kepada pengguna.
